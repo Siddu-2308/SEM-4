@@ -1,0 +1,105 @@
+
+Enter expression (q to quit): 
+12 + 34 * 56
+Expression in postfix notation: 
+12 34 56 * + 
+Expression evaluates to: 1916
+
+Enter expression (q to quit): 
+78 - 65 + 43
+Expression in postfix notation: 
+78 65 - 43 + 
+Expression evaluates to: 56
+
+Enter expression (q to quit): 
+21 * 32 / 16
+Expression in postfix notation: 
+21 32 * 16 / 
+Expression evaluates to: 42
+
+Enter expression (q to quit): 
+(12 + 34) * 56
+Expression in postfix notation: 
+12 34 + 56 * 
+Expression evaluates to: 2576
+
+Enter expression (q to quit): 
+78 - (65 + 43) * 21
+Expression in postfix notation: 
+78 65 43 + 21 * - 
+Expression evaluates to: -2190
+
+Enter expression (q to quit): 
+(21 * (32 + 16)) / 24
+Expression in postfix notation: 
+21 32 16 + * 24 / 
+Expression evaluates to: 42
+
+Enter expression (q to quit): 
+((12 + 34) * (56 - 78)) / 21
+Expression in postfix notation: 
+12 34 + 56 78 - * 21 / 
+Expression evaluates to: -48.1905
+
+Enter expression (q to quit): 
+(45 + (67 - 89) * (12 + 34))
+Expression in postfix notation: 
+45 67 89 - 12 34 + * + 
+Expression evaluates to: -967
+
+Enter expression (q to quit): 
+-12 + 34 * (-56)
+Expression in postfix notation: 
+-12 34 -56 * + 
+Expression evaluates to: -1916
+
+Enter expression (q to quit): 
+(78 + -65) * (43 - -21)
+Expression in postfix notation: 
+78 -65 + 43 -21 - * 
+Expression evaluates to: 832
+
+Enter expression (q to quit): 
+45 - 23 - 12
+Expression in postfix notation: 
+45 23 - 12 - 
+Expression evaluates to: 10
+
+Enter expression (q to quit): 
+84 / 12 / 7
+Expression in postfix notation: 
+84 12 / 7 / 
+Expression evaluates to: 1
+
+Enter expression (q to quit): 
+2 ^ 3 ^ 4
+Expression in postfix notation: 
+2 3 4 ^ ^ 
+Expression evaluates to: 2.41785e+24
+
+Enter expression (q to quit): 
+56 - 24 + 18 - 10
+Expression in postfix notation: 
+56 24 - 18 + 10 - 
+Expression evaluates to: 40
+
+Enter expression (q to quit): 
+2 ^ (3 + 4) ^ 5 * 6
+Expression in postfix notation: 
+2 3 4 + 5 ^ ^ 6 * 
+Expression evaluates to: inf
+
+Enter expression (q to quit): 
+(12 + 34 * 56
+Expression contains unbalanced parantheses.
+
+Enter expression (q to quit): 
+78 - (65 + 43)) * 21
+Expression contains unbalanced parantheses.
+
+Enter expression (q to quit): 
+((21 + 32) * (16 + 24)
+Expression contains unbalanced parantheses.
+
+Enter expression (q to quit): 
+Exiting

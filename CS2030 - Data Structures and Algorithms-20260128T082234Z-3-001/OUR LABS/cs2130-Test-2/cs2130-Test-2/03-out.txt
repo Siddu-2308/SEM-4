@@ -1,0 +1,346 @@
+
+Binary search tree (for integers in the range 1-99).
+
+
+
+Task 5 + Task 6 (2 marks + 3 marks)
+-----------------------------------
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 11...
+
+  11|1  
+
+        
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 5...
+
+      11|2      
+
+   5|1          
+
+                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 5...
+
+              11|3              
+
+       5|2                      
+
+   5|1                          
+
+                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 13...
+
+              11|4              
+
+       5|2            13|1      
+
+   5|1                          
+
+                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 12...
+
+              11|5              
+
+       5|2            13|2      
+
+   5|1            12|1          
+
+                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 11...
+
+              11*5              
+
+       5|2            13|2      
+
+   5|1            12|1          
+
+                                
+
+Resulting Tree:
+
+
+              12|4              
+
+       5|2            13|1      
+
+   5|1                          
+
+                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 5...
+
+              12|4              
+
+       5*2            13|1      
+
+   5|1                          
+
+                                
+
+Resulting Tree:
+
+
+      12|3      
+
+   5|1    13|1  
+
+                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 5...
+
+      12|3      
+
+   5*1    13|1  
+
+                
+
+Resulting Tree:
+
+
+      12|2      
+
+          13|1  
+
+                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 12...
+
+      12*2      
+
+          13|1  
+
+                
+
+Resulting Tree:
+
+
+  13|1  
+
+        
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 13...
+
+  13*1  
+
+        
+
+Resulting Tree:
+
+
+    
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 9...
+
+   9|1  
+
+        
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 8...
+
+       9|2      
+
+   8|1          
+
+                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 45...
+
+       9|3      
+
+   8|1    45|1  
+
+                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+               9|4              
+
+       8|1            45|2      
+
+                  10|1          
+
+                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                               9|5                              
+
+               8|1                            45|3              
+
+                                      10|2                      
+
+                                  10|1                          
+
+                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 55...
+
+                               9|6                              
+
+               8|1                            45|4              
+
+                                      10|2            55|1      
+
+                                  10|1                          
+
+                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 9...
+
+                               9*6                              
+
+               8|1                            45|4              
+
+                                      10|2            55|1      
+
+                                  10|1                          
+
+                                                                
+
+Resulting Tree:
+
+
+              10|5              
+
+       8|1            45|3      
+
+                  10|1    55|1  
+
+                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 7...
+
+              10|6              
+
+       8|2            45|3      
+
+   7|1            10|1    55|1  
+
+                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 6...
+
+                              10|7                              
+
+               8|3                            45|3              
+
+       7|2                            10|1            55|1      
+
+   6|1                                                          
+
+                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                              10|8                              
+
+               8|4                            45|3              
+
+       7|2            10|1            10|1            55|1      
+
+   6|1                                                          
+
+                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                              10|9                              
+
+               8|5                            45|3              
+
+       7|2            10|2            10|1            55|1      
+
+   6|1            10|1                                          
+
+                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                                                              10|10                                                              
+
+                               8|6                                                            45|3                              
+
+               7|2                            10|3                            10|1                            55|1              
+
+       6|1                            10|2                                                                                      
+
+                                  10|1                                                                                          
+
+                                                                                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 8...
+
+                                                              10|10                                                              
+
+                               8*6                                                            45|3                              
+
+               7|2                            10|3                            10|1                            55|1              
+
+       6|1                            10|2                                                                                      
+
+                                  10|1                                                                                          
+
+                                                                                                                                
+
+Resulting Tree:
+
+
+                              10|9                              
+
+              10|5                            45|3              
+
+       7|2            10|2            10|1            55|1      
+
+   6|1            10|1                                          
+
+                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                              10|10                              
+
+              10|6                            45|3              
+
+       7|3            10|2            10|1            55|1      
+
+   6|1    10|1    10|1                                          
+
+                                                                
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+
+Task 7 + Task 8 (4 marks + 5 marks)
+-----------------------------------
+
+
+Enter a key value: Leftmost node having key value 10:
+
+
+                              10|10                              
+
+              10|6                            45|3              
+
+       7|3            10|2            10|1            55|1      
+
+   6|1    10*1    10|1                                          
+
+                                                                
+Rightmost node having key value 10:
+
+
+                              10|10                              
+
+              10|6                            45|3              
+
+       7|3            10|2            10*1            55|1      
+
+   6|1    10|1    10|1                                          
+
+                                                                
+Number of nodes having key value 10: 6
+
+Enter a key value: 

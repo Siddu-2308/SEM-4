@@ -1,0 +1,591 @@
+Enter hash table type: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 1...
+
+ 0: 
+ 1: 
+ 2: 
+ 3: 
+ 4: 
+ 5: 
+ 6: 
+ 7: 
+ 8: 
+ 9:  1
+10: 
+11: 
+12: 
+13: 
+14: 
+15: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 2...
+
+ 0: 
+ 1: 
+ 2: 
+ 3:  2
+ 4: 
+ 5: 
+ 6: 
+ 7: 
+ 8: 
+ 9:  1
+10: 
+11: 
+12: 
+13: 
+14: 
+15: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 3...
+
+ 0: 
+ 1: 
+ 2: 
+ 3:  2
+ 4: 
+ 5: 
+ 6: 
+ 7: 
+ 8: 
+ 9:  1
+10: 
+11: 
+12: 
+13:  3
+14: 
+15: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 4...
+
+ 0: 
+ 1: 
+ 2: 
+ 3:  2
+ 4: 
+ 5: 
+ 6: 
+ 7:  4
+ 8: 
+ 9:  1
+10: 
+11: 
+12: 
+13:  3
+14: 
+15: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 5...
+
+ 0: 
+ 1:  5
+ 2: 
+ 3:  2
+ 4: 
+ 5: 
+ 6: 
+ 7:  4
+ 8: 
+ 9:  1
+10: 
+11: 
+12: 
+13:  3
+14: 
+15: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 6...
+
+ 0: 
+ 1:  5
+ 2: 
+ 3:  2
+ 4: 
+ 5: 
+ 6: 
+ 7:  4
+ 8: 
+ 9:  1
+10: 
+11:  6
+12: 
+13:  3
+14: 
+15: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 7...
+
+ 0: 
+ 1:  5
+ 2: 
+ 3:  2
+ 4: 
+ 5:  7
+ 6: 
+ 7:  4
+ 8: 
+ 9:  1
+10: 
+11:  6
+12: 
+13:  3
+14: 
+15: 
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 8...
+
+ 0: 
+ 1:  5
+ 2: 
+ 3:  2
+ 4: 
+ 5:  7
+ 6: 
+ 7:  4
+ 8: 
+ 9:  1
+10: 
+11:  6
+12: 
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 9...
+
+ 0: 
+ 1:  5
+ 2: 
+ 3:  2
+ 4: 
+ 5:  7
+ 6: 
+ 7:  4
+ 8:  9
+ 9:  1
+10: 
+11:  6
+12: 
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 10...
+
+ 0: 
+ 1:  5
+ 2:  10
+ 3:  2
+ 4: 
+ 5:  7
+ 6: 
+ 7:  4
+ 8:  9
+ 9:  1
+10: 
+11:  6
+12: 
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 11...
+
+ 0: 
+ 1:  5
+ 2:  10
+ 3:  2
+ 4: 
+ 5:  7
+ 6: 
+ 7:  4
+ 8:  9
+ 9:  1
+10: 
+11:  6
+12:  11
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 12...
+
+ 0: 
+ 1:  5
+ 2:  10
+ 3:  2
+ 4: 
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  9
+ 9:  1
+10: 
+11:  6
+12:  11
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 13...
+
+ 0:  13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4: 
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  9
+ 9:  1
+10: 
+11:  6
+12:  11
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 14...
+
+ 0:  13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4: 
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 15...
+
+ 0:  13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14: 
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 16...
+
+ 0:  13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 64...
+
+ 0:  13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 128...
+
+ 0:  128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 192...
+
+ 0:  128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 256...
+
+ 0:  256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 320...
+
+ 0:  256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 384...
+
+ 0:  384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 448...
+
+ 0:  384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 512...
+
+ 0:  512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 576...
+
+ 0:  512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  576, 448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 640...
+
+ 0:  640, 512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  576, 448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 704...
+
+ 0:  640, 512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  704, 576, 448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 768...
+
+ 0:  768, 640, 512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  704, 576, 448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 832...
+
+ 0:  768, 640, 512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  832, 704, 576, 448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 896...
+
+ 0:  896, 768, 640, 512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  832, 704, 576, 448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 
+Inserting key 960...
+
+ 0:  896, 768, 640, 512, 384, 256, 128, 13
+ 1:  5
+ 2:  10
+ 3:  2
+ 4:  15
+ 5:  7
+ 6:  12
+ 7:  4
+ 8:  960, 832, 704, 576, 448, 320, 192, 64, 9
+ 9:  1
+10:  14
+11:  6
+12:  11
+13:  3
+14:  16
+15:  8
+Enter key (0 to randomly generate, -1 to exit): 

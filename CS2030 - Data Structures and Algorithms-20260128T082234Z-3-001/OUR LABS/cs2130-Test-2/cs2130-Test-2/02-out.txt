@@ -1,0 +1,413 @@
+
+Binary search tree (for integers in the range 1-99).
+
+Task 1a (2 marks)
+-----------------
+Enter some values to be inserted into the tree (terminate with 0):Enter key value to insert: 
+Inserting node with key value 18...Enter key value to insert: 
+Inserting node with key value 5...Enter key value to insert: 
+Inserting node with key value 1...Enter key value to insert: 
+Inserting node with key value 15...Enter key value to insert: 
+Inserting node with key value 19...Enter key value to insert: 
+Inserting node with key value 11...Enter key value to insert: 
+Inserting node with key value 11...Enter key value to insert: 
+Inserting node with key value 9...Enter key value to insert: 
+Inserting node with key value 18...Enter key value to insert: 
+Inserting node with key value 13...Enter key value to insert: 
+
+                                                               18                                                               
+
+                                5                                                              19                               
+
+                1                              15                                                                               
+
+                                       11              18                                                                       
+
+                                   11      13                                                                                   
+
+                                  9                                                                                             
+
+                                                                                                                                
+
+Task 1b + 1c (1 + 1 marks):
+-------------------------
+
+Enter a key value to search for: 
+Key 11 found in tree.
+Minimum value in subtree: 9
+Enter a key value to search for: 
+Key 15 found in tree.
+Minimum value in subtree: 9
+Enter a key value to search for: 
+Key 8 not found in tree.
+Enter a key value to search for: 
+Key 19 found in tree.
+Minimum value in subtree: 19
+Enter a key value to search for: 
+Key 18 found in tree.
+Minimum value in subtree: 1
+Enter a key value to search for: 
+
+Task 2 (4 marks):
+-----------------
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 18...
+
+                                                               19                                                               
+
+                                5                                                                                               
+
+                1                              15                                                                               
+
+                                       11              18                                                                       
+
+                                   11      13                                                                                   
+
+                                  9                                                                                             
+
+                                                                                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 5...
+
+                               19                               
+
+                9                                               
+
+        1              15                                       
+
+                   11      18                                   
+
+                 11  13                                         
+
+                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 1...
+
+                               19                               
+
+                9                                               
+
+                       15                                       
+
+                   11      18                                   
+
+                 11  13                                         
+
+                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 15...
+
+                               19                               
+
+                9                                               
+
+                       18                                       
+
+                   11                                           
+
+                 11  13                                         
+
+                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 19...
+
+                9               
+
+                       18       
+
+                   11           
+
+                 11  13         
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 11...
+
+                9               
+
+                       18       
+
+                   13           
+
+                 11             
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 11...
+
+        9       
+
+           18   
+
+         13     
+
+                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 9...
+
+   18   
+
+ 13     
+
+        
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 18...
+
+ 13 
+
+    
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 13...
+
+  
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 9...
+
+  9 
+
+    
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 8...
+
+    9   
+
+  8     
+
+        
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 45...
+
+    9   
+
+  8  45 
+
+        
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+        9       
+
+    8      45   
+
+         10     
+
+                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                9               
+
+        8              45       
+
+                   10           
+
+                 10             
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 55...
+
+                9               
+
+        8              45       
+
+                   10      55   
+
+                 10             
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 9...
+
+       10       
+
+    8      45   
+
+         10  55 
+
+                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 7...
+
+       10       
+
+    8      45   
+
+  7      10  55 
+
+                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 6...
+
+               10               
+
+        8              45       
+
+    7              10      55   
+
+  6                             
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+               10               
+
+        8              45       
+
+    7      10      10      55   
+
+  6                             
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+               10               
+
+        8              45       
+
+    7      10      10      55   
+
+  6      10                     
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                               10                               
+
+                8                              45               
+
+        7              10              10              55       
+
+    6              10                                           
+
+                 10                                             
+
+                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 8...
+
+               10               
+
+       10              45       
+
+    7      10      10      55   
+
+  6      10                     
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+               10               
+
+       10              45       
+
+    7      10      10      55   
+
+  6  10  10                     
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                               10                               
+
+               10                              45               
+
+        7              10              10              55       
+
+    6      10      10                                           
+
+         10                                                     
+
+                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 7...
+
+               10               
+
+       10              45       
+
+   10      10      10      55   
+
+  6  10  10                     
+
+                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                               10                               
+
+               10                              45               
+
+       10              10              10              55       
+
+    6      10      10                                           
+
+     10                                                         
+
+                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Inserting node with key value 10...
+
+                                                               10                                                               
+
+                               10                                                              45                               
+
+               10                              10                              10                              55               
+
+        6              10              10                                                                                       
+
+           10                                                                                                                   
+
+         10                                                                                                                     
+
+                                                                                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
+Removing node with key value 6...
+
+                               10                               
+
+               10                              45               
+
+       10              10              10              55       
+
+   10      10      10                                           
+
+ 10                                                             
+
+                                                                
+
+Enter key value to insert or delete (+x inserts x, -x removes x, zero terminates): 
